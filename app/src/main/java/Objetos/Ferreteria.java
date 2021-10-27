@@ -8,7 +8,7 @@ public class Ferreteria {
 
     private String[] herramienta ={"Alicate", "Serrucho", "Brocha", "Huincha de medir","Llave Francesa","Multimetro digital","Desortillador","Taladro electrico","Escuadra",
                                    "Martillo","Sierra Manual","Sierra electrica","Sierra Caladora","Pala","Llave de tubo",
-                                   "Nivel","Corte de ceramica","Broca","Broca de paleta"};
+                                   "Nivel","Corte de ceramica","Broca","Broca de paleta","Toniquete","Soldadura"};
 
     private String[] manual ={"Pintar mesa", "Instalar ventilador de techo", "Arreglar regadera", "Instalación de luz", "Armar closet", "Armar repisa"," Armar despensa","Colocar Ceramica",
                               "Instalar llave de agua","Techo","Encialado de madera","Encialado de cemento","Cañaria del agua", "Estanque de baño ",
