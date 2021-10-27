@@ -16,7 +16,7 @@ public class Info_act extends AppCompatActivity {
     }
     public void Marcar(View view){
         Intent i = new Intent(Intent.ACTION_DIAL);
-        i.setData(Uri.parse("tel:"+"934075003"));
+        i.setData(Uri.parse("tel:"+"999932541"));
         startActivity(i);
 
     }
