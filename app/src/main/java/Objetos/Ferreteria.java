@@ -12,7 +12,7 @@ public class Ferreteria {
 
     private String[] manual ={"Pintar mesa", "Instalar ventilador de techo", "Arreglar regadera", "Instalación de luz", "Armar closet", "Armar repisa"," Armar despensa","Colocar Ceramica",
                               "Instalar llave de agua","Techo","Encialado de madera","Encialado de cemento","Cañaria del agua", "Estanque de baño ",
-                               "Ducha electrica", "Lava manos", "Tasa de baño","Cañaria de agua"};
+                               "Ducha electrica", "Lava manos"};
 
     private int[] preciosma = {3500, 4000, 3500, 10000, 5500, 15000, 2000, 2500,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000};
     private int[] preciosher ={1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000};
