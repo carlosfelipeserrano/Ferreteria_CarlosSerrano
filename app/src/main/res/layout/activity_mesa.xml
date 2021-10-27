@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Mesa_act">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="327dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="28dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <VideoView
+                android:id="@+id/vdo"
+                android:layout_width="285dp"
+                android:layout_height="120dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="486dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView8"
+        app:cardCornerRadius="25dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="261dp"
+                        android:layout_height="78dp"
+                        android:text="Paso5: Al tratarse de un tipo de pintura con efecto tiza la superficie del mueble que pintemos quedará sedosa al tacto y con aspecto satinado."
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="237dp"
+                        android:layout_height="112dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView15"
+                        app:srcCompat="@drawable/me5" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="242dp"
+                        android:layout_height="68dp"
+                        android:text="Paso4: Retiramos el polvo y aplicamos la segunda mano."
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="242dp"
+                        android:layout_height="123dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView28"
+                        app:srcCompat="@drawable/me4" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="235dp"
+                        android:layout_height="93dp"
+                        android:text="Paso3: Dejamos que seque bien y antes de aplicar la segunda mano, si queremos un acabado profesional, os recomendamos que paséis de nuevo una lijafina."
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="234dp"
+                        android:layout_height="130dp"
+                        android:layout_marginTop="12dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.495"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView17"
+                        app:srcCompat="@drawable/me3" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="245dp"
+                        android:layout_height="150dp"
+                        android:text="Paso2: Pasamos un paño seco para limpiar bien todo el polvo del lijado y ha llegado el momento de aplicar el color. En este caso, nos hemos decantado por una pintura al agua con efecto tiza. No requiere preparación ni imprimación por lo que podemos aplicarla directamente sobre el mueble."
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.568"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="238dp"
+                        android:layout_height="152dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.532"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView16"
+                        app:srcCompat="@drawable/me2" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="237dp"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Paso1: Comenzamos pasando una lija fina por toda la superficie."
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="243dp"
+                        android:layout_height="137dp"
+                        android:layout_marginTop="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/me" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
