@@ -19,14 +19,15 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            >
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="340dp"
                 android:layout_height="21dp"
                 android:layout_marginTop="16dp"
-                android:text="Bienvenido a la sección de Material"
+                android:text="@string/bienvenido_a_la_secci_n_de_material"
                 android:textAlignment="center"
                 android:textColor="#F44336"
                 android:textSize="16sp"
@@ -40,11 +41,11 @@
                 android:id="@+id/textView3"
                 android:layout_width="335dp"
                 android:layout_height="104dp"
-                android:layout_marginTop="4dp"
-                android:text="Aquí encontraras solo Material para construcción, veras que precio tiene cada Material que eligas y veras la calidad de cada Material con las estrellas que se encuentran abajo"
+                android:layout_marginTop="64dp"
+                android:text="Aquí encontraras solo Material de construcción. "
                 android:textColor="#000000"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.272"
+                app:layout_constraintHorizontal_bias="0.318"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -52,9 +53,9 @@
                 android:id="@+id/cardView3"
                 android:layout_width="306dp"
                 android:layout_height="60dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="60dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintHorizontal_bias="0.411"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" >
 
@@ -64,7 +65,7 @@
 
                     <Spinner
                         android:id="@+id/spnprod"
-                        android:layout_width="307dp"
+                        android:layout_width="303dp"
                         android:layout_height="61dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -78,23 +79,24 @@
                 android:id="@+id/result"
                 android:layout_width="298dp"
                 android:layout_height="95dp"
-                android:layout_marginTop="32dp"
-                android:text="TextView"
+                android:layout_marginTop="48dp"
+                android:text="@string/textview"
                 android:textAlignment="center"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.309"
+                app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView3" />
 
             <LinearLayout
-                android:layout_width="234dp"
-                android:layout_height="99dp"
+                android:layout_width="232dp"
+                android:layout_height="49dp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/result">
 
                 <Button
                     android:id="@+id/button"
