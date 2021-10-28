@@ -16,7 +16,6 @@ import Objetos.Ferreteria;
 public class Material_act extends AppCompatActivity {
     private Spinner productos;
     private TextView result;
-    private RatingBar cali;
     Ferreteria fe = new Ferreteria();
 
 
@@ -24,7 +23,7 @@ public class Material_act extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_productos);
-        cali = findViewById(R.id.rb);
+
         result = findViewById(R.id.result);
         productos = findViewById(R.id.spnprod);
         Bundle bun = getIntent().getExtras();
@@ -42,10 +41,10 @@ public class Material_act extends AppCompatActivity {
         {
             if(opcion.equals(fe.getMaterial()[i]))
             {
-                //resultado = fe.getPreciosma()[i];
-                resultado = fe.adicional(fe.getPreciosma()[i], 350);
 
-                cali.setRating(i);
+                resultado = fe.adicional(fe.getPreciosma()[i], 350);
+                result.setText("La opción: " + opcion + " el precio es: " + resultado);
+
 
 
                 break;
@@ -54,7 +53,7 @@ public class Material_act extends AppCompatActivity {
 
 
         }
-        result.setText("La opción: " + opcion + " el precio es: " + resultado);
+
     }
 }
 
