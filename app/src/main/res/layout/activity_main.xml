@@ -67,7 +67,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#F0F15D2F"
-                    android:onClick="LoadSession"
                     android:text="Iniciar Sesión"
                     app:cornerRadius="20dp" />
 
@@ -131,7 +130,8 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:onClick="info"
-                    app:srcCompat="@drawable/info" />
+                    app:srcCompat="@drawable/info"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             </LinearLayout>
 
@@ -139,7 +139,6 @@
                 android:id="@+id/msj"
                 android:layout_width="313dp"
                 android:layout_height="20dp"
-                android:text="hola"
                 android:textColor="#F44336"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -165,8 +164,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="315dp"
-        android:layout_height="106dp"
+        android:layout_width="286dp"
+        android:layout_height="116dp"
         android:layout_marginTop="36dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
