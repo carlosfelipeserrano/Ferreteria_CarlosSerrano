@@ -2,9 +2,8 @@ package Objetos;
 
 public class Ferreteria {
     private int id;
-    private String[] material = {"Cemento","Lija","Lija fina","Pintura en Spray","Pinturas", "Puertas", "Listones de madera", "Plancha de madera", "Tabla de zinc","Tabla de internit","Tabla de madera","Guantes","Cables","Clavos",
-            "Pernos","Tornillos","Casco","Carretilla","Ladrillo","Tarugos","Diluyente","Enchufes","Interructores", "Melamina","Tiradores","Rieles","Visagras","Guias telescopia","Barras de colgar","Soporte de barra","Tapacanto",
-            "Agorex","Escuadras plasticas"};
+    private String[] material = {"Cemento","Lija","Pintura en Spray","Barniz", "Puertas", "Listones de madera", "Terciado", "Plancha de zinc", "Plancha de internit", "Guantes de fibra", "Cables electrico","Bolsa de clavos",
+            "Caja de pernos","Caja de tornillos","Casco de seguridad","Carretilla de acero","Bolsa de tarugos","Botella de diluyente","Interructores triple"};
 
     private String[] herramienta ={"Alicate", "Serrucho", "Brocha", "Huincha de medir","Llave Francesa","Multimetro digital","Desortillador","Taladro electrico","Escuadra",
                                    "Martillo","Sierra Manual","Sierra electrica","Sierra Caladora","Pala","Llave de tubo",
@@ -14,7 +13,7 @@ public class Ferreteria {
                               "Instalar llave de agua","Techo","Encialado de madera","Encialado de cemento","Cañaria del agua", "Estanque de baño ",
                                "Ducha electrica", "Lava manos"};
 
-    private int[] preciosma = {3500, 4000, 3500, 10000, 5500, 15000, 2000, 2500,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000};
+    private int[] preciosma = {8000, 6500, 5000, 10000, 30000, 1500, 25000, 15000, 12000, 7000, 17000, 7000, 12000, 7000, 13000, 30000, 7000, 3000, 7000};
     private int[] preciosher ={1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000};
 
     private int stock;
