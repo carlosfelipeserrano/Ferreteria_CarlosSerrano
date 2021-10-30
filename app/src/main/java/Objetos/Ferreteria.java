@@ -14,7 +14,7 @@ public class Ferreteria {
                                "Ducha electrica", "Lava manos"};
 
     private int[] preciosma = {8000, 6500, 5000, 10000, 30000, 1500, 25000, 15000, 12000, 7000, 17000, 7000, 12000, 7000, 13000, 30000, 7000, 3000, 7000};
-    private int[] preciosher ={1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000};
+    private int[] preciosher ={5000, 8000, 4000, 2500, 9000, 16000, 12000, 40000, 3100, 15000};
 
     private int stock;
 
