@@ -28,10 +28,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Bienvenido al menú de la Ferreteria Hard"
+                android:textAlignment="textEnd"
                 android:textColor="#FF5722"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.053"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,7 +40,7 @@
                 android:layout_width="320dp"
                 android:layout_height="105dp"
                 android:layout_marginTop="8dp"
-                android:text="Ferreteria Hard es la aplicación para constructores, arquitectos y gafiters, es un software digital que nos permite ver productos de contruccion de materiales y herramientas. Tabién cuenta con un manual de construcción."
+                android:text="Ferreteria Hard es la aplicación para constructores, arquitectos y gafiters, es un software digital que nos permite ver productos de contrucción de materiales y herramientas. También cuenta con un manual de construcción."
                 android:textColor="#050505"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
