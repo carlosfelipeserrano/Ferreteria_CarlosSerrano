@@ -103,14 +103,14 @@ public class MainActivity extends AppCompatActivity {
                     if (usuario.equals("")&& contrasena.equals("")){
                         //Campos vacios
                         msj.setVisibility(View.VISIBLE);
-                        msj.setText("Campos vacios, porfavor intente nuevamente");
+                        msj.setText("Campos vacios, rellenar los campos por favor");
                     }
                     break;
                 default:
                     if(!usuario.equals(userObj) && !contrasena.equals(passObj)){
                         //Campos incorrectos
                         msj.setVisibility(View.VISIBLE);
-                        msj.setText("Campos incorrectos, porfavor intente nuevamente");
+                        msj.setText("Campos incorrectos, verifique si esta correcto el usuario o contraseña");
                     }
                     break;
 
