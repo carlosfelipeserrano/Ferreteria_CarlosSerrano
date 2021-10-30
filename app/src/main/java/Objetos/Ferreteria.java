@@ -6,15 +6,15 @@ public class Ferreteria {
             "Caja de pernos","Caja de tornillos","Casco de seguridad","Carretilla de acero","Bolsa de tarugos","Botella de diluyente","Interructores triple"};
 
     private String[] herramienta ={"Alicate", "Serrucho", "Brocha", "Huincha de medir","Llave Francesa","Multimetro digital","Desortillador","Taladro electrico","Escuadra",
-                                   "Martillo","Sierra Manual","Sierra electrica","Sierra Caladora","Pala","Llave de tubo",
-                                   "Nivel","Corte de ceramica","Broca","Broca de paleta","Toniquete","Soldadura"};
+                                   "Martillo de fibra","Sierra Manual","Sierra electrica","Sierra Caladora","Pala de punta",
+                                   "Kits de niveles","Kit de instalación de ceramica","Kits de soldadora"};
 
     private String[] manual ={"Pintar mesa", "Instalar ventilador de techo", "Arreglar regadera", "Instalación de luz", "Armar closet", "Armar repisa"," Armar despensa","Colocar Ceramica",
                               "Instalar llave de agua","Techo","Encialado de madera","Encialado de cemento","Cañaria del agua", "Estanque de baño ",
                                "Ducha electrica", "Lava manos"};
 
-    private int[] preciosma = {8000, 6500, 5000, 10000, 30000, 1500, 25000, 15000, 12000, 7000, 17000, 7000, 12000, 7000, 13000, 30000, 7000, 3000, 7000};
-    private int[] preciosher ={5000, 8000, 4000, 2500, 9000, 16000, 12000, 40000, 3100, 15000};
+    private int[] preciosma = {8000, 6500, 5000, 10000, 30000, 25000, 1500, 15000, 7000, 17000, 7000, 12000, 17000, 13000, 3000, 27000, 23000, 37000};
+    private int[] preciosher ={5000, 8000, 4000, 2500, 9000, 16000, 12000, 40000, 3100, 15000, 6500, 100000, 50000, 10000, 4100, 130000,150000};
 
     private int stock;
 
