@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                     if(!usuario.equals(userObj) && !contrasena.equals(passObj)){
                         //Campos incorrectos
                         msj.setVisibility(View.VISIBLE);
-                        msj.setText("Campos incorrectos, verifique si esta correcto el usuario o contraseña");
+                        msj.setText("El usuario o contraseña que ingresaste es incorrecto.");
                     }
                     break;
 
