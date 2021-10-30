@@ -78,15 +78,16 @@
 
             <TextView
                 android:id="@+id/result1"
-                android:layout_width="202dp"
-                android:layout_height="45dp"
+                android:layout_width="264dp"
+                android:layout_height="62dp"
                 android:layout_marginTop="40dp"
+                android:onClick="Resultado"
                 android:text="TextView"
                 android:textAlignment="center"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.098"
+                app:layout_constraintHorizontal_bias="0.45"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView5" />
 
