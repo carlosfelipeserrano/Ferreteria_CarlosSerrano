@@ -62,6 +62,10 @@ public class Home_act extends AppCompatActivity {
         startActivity(i);
 
     }
+    public void volver(View view){
+        Intent i = new Intent(this,MainActivity.class);
+        startActivity(i);
+    }
 }
 
 
