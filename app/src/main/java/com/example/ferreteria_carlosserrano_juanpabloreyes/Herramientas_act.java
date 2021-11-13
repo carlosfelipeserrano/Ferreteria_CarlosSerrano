@@ -2,6 +2,7 @@ package com.example.ferreteria_carlosserrano_juanpabloreyes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -50,6 +51,10 @@ public class Herramientas_act extends AppCompatActivity {
 
         }
 
+    }
+    public void agregarhe (View view){
+        Intent i = new Intent(this,Crudher_act.class);
+        startActivity(i);
     }
 
 }
