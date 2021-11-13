@@ -37,7 +37,7 @@
                 android:layout_width="339dp"
                 android:layout_height="90dp"
                 android:layout_marginTop="8dp"
-                android:text="En esta sección podras visualizar como se contruye varios de objetos de materiales, por ejemplo la contrucción de una mesa,instalacion de luz. Aparte se visualizara que materiales e herramientas se necesitan para construir el objeto como tal"
+                android:text="En esta sección podras visualizar como se contruye varios de objetos de materiales, por ejemplo la contrucción de una mesa,instalacion de luz. Aparte se visualizara que materiales e herramientas se necesitan para hacer la mano de obra"
                 android:textAlignment="viewStart"
                 android:textColor="#000000"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -122,11 +122,11 @@
                         android:id="@+id/imageButton2"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_marginTop="4dp"
                         android:background="@android:color/transparent"
                         android:onClick="Catalogo"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.322"
+                        app:layout_constraintHorizontal_bias="0.497"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/guia"
@@ -146,31 +146,17 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <ImageButton
-                        android:id="@+id/imageButton4"
-                        android:layout_width="55dp"
-                        android:layout_height="52dp"
-                        android:background="@android:color/transparent"
-                        android:onClick="videos"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.587"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.0"
-                        app:srcCompat="@drawable/vid"
-                        tools:ignore="SpeakableTextPresentCheck" />
-
-                    <ImageButton
                         android:id="@+id/imageButton5"
                         android:layout_width="48dp"
                         android:layout_height="50dp"
                         android:background="@android:color/transparent"
+                        android:onClick="Volver"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.852"
+                        app:layout_constraintHorizontal_bias="0.871"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="1.0"
+                        app:layout_constraintVertical_bias="0.0"
                         app:srcCompat="@drawable/exit"
                         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -195,7 +181,7 @@
                         android:layout_width="156dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:backgroundTint="#C17F2F"
+                        android:backgroundTint="#F0F15D2F"
                         android:onClick="Necesito"
                         android:text="Necesito"
                         app:cornerRadius="25dp" />
@@ -205,7 +191,7 @@
                         android:layout_width="171dp"
                         android:layout_height="48dp"
                         android:layout_margin="5dp"
-                        android:backgroundTint="#C17F2F"
+                        android:backgroundTint="#F0F15D2F"
                         android:onClick="Catalogo"
                         android:text="Instrucciones"
                         app:cornerRadius="25dp"
@@ -218,24 +204,21 @@
                     android:layout_height="match_parent">
 
                     <Button
-                        android:id="@+id/button14"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="5dp"
-                        android:backgroundTint="#C17F2F"
-                        android:text="Videos"
-                        app:cornerRadius="25dp"
-                        tools:ignore="TouchTargetSizeCheck" />
-
-                    <Button
                         android:id="@+id/button13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:backgroundTint="#C17F2F"
+                        android:backgroundTint="#F0F15D2F"
+                        android:onClick="Volver"
                         android:text="Volver"
                         app:cornerRadius="25dp"
                         tools:ignore="TouchTargetSizeCheck" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </TableRow>
 
             </TableLayout>
