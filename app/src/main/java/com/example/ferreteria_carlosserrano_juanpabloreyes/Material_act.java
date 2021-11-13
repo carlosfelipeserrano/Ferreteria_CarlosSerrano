@@ -55,6 +55,10 @@ public class Material_act extends AppCompatActivity {
         }
 
     }
+    public void agregar (View view){
+        Intent i = new Intent(this,Crudma_act.class);
+        startActivity(i);
+    }
 }
 
 
