@@ -78,15 +78,6 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton18"
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                app:srcCompat="@drawable/per"
-                tools:ignore="SpeakableTextPresentCheck" />
-
-            <ImageButton
                 android:id="@+id/mat"
                 android:layout_width="42dp"
                 android:layout_height="wrap_content"
@@ -147,20 +138,22 @@
                     android:layout_height="97dp">
 
                     <Button
-                        android:id="@+id/button5"
-                        android:layout_width="159dp"
+                        android:id="@+id/button7"
+                        android:layout_width="142dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:backgroundTint="#C17F2F"
-                        android:text="Mi perfil"
-                        app:cornerRadius="25dp" />
+                        android:backgroundTint="#F0F15D2F"
+
+                        android:onClick="Material"
+                        android:text="Material"
+                        app:cornerRadius="20dp" />
 
                     <Button
-                        android:id="@+id/btn1"
+                        android:id="@+id/btn10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:backgroundTint="#C17F2F"
+                        android:backgroundTint="#F0F15D2F"
                         android:onClick="Herramientas"
                         android:text="Herramientas"
                         app:cornerRadius="25dp" />
@@ -171,25 +164,25 @@
                     android:layout_height="match_parent">
 
                     <Button
-                        android:id="@+id/button7"
-                        android:layout_width="142dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:backgroundTint="#C17F2F"
-
-                        android:onClick="Material"
-                        android:text="Material"
-                        app:cornerRadius="20dp" />
-
-                    <Button
                         android:id="@+id/button6"
                         android:layout_width="151dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:backgroundTint="#C17F2F"
+                        android:backgroundTint="#F0F15D2F"
                         android:onClick="Manual"
                         android:text="Ver Manual"
                         app:cornerRadius="25dp" />
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:backgroundTint="#F0F15D2F"
+                        android:onClick="volver"
+                        android:text="volver"
+                        app:cornerRadius="25dp" />
+
                 </TableRow>
 
             </TableLayout>
